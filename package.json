@@ -1,0 +1,23 @@
+{
+  "name": "nodejs-woocommerce",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "license": "MIT",
+  "repository": "https://github.com/dfa1234/nodejs-woocommerce",
+  "scripts": {
+    "ts-node": "./node_modules/.bin/ts-node index.ts"
+  },
+  "dependencies": {
+    "mongodb": "^3.0.2",
+    "oauth-1.0a": "^2.2.4",
+    "reflect-metadata": "^0.1.10",
+    "request": "^2.83.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.11.0",
+    "@types/mongodb": "^3.0.5",
+    "@types/request": "^2.0.9",
+    "ts-node": "^4.0.2",
+    "typescript": "^2.6.2"
+  }
+}
